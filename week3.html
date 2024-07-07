@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>E-commerce Product Page</title>
+<style>
+    /* Basic reset */
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .product-container {
+        max-width: 600px;
+        background-color: #fff;
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        display: flex;
+        overflow: hidden;
+    }
+
+    .product-image {
+        flex: 1;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .product-image img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 5px;
+    }
+
+    .product-details {
+        flex: 2;
+        padding: 20px;
+    }
+
+    .product-title {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .product-description {
+        color: #555;
+        margin-bottom: 15px;
+    }
+
+    .product-price {
+        font-size: 20px;
+        color: #007bff;
+        margin-bottom: 15px;
+    }
+
+    .add-to-cart-btn {
+        padding: 10px 20px;
+        font-size: 16px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+    .add-to-cart-btn:hover {
+        background-color: #0056b3;
+    }
+</style>
+</head>
+<body>
+
+<div class="product-container">
+    <div class="product-image">
+        <img src="C:\Users\Dell\Desktop\week.jpg" alt="Product Image">
+    </div>
+    <div class="product-details">
+        <h1 class="product-title">Product Name</h1>
+        <p class="product-description">Display relevant information about the product, including its name, description, and price.</p>
+        <p class="product-price">$99.99</p>
+        <button class="add-to-cart-btn">Add to Cart</button>
+    </div>
+</div>
+
+</body>
+</html>
